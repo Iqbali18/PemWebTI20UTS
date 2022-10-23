@@ -1,0 +1,129 @@
+:root{
+    --pr-color: #2C3639;
+}
+*
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #ffff;
+}
+
+.navbar{
+    background: linear-gradient(60deg, var(--pr-color), #DCD7C9);
+    z-index: 3;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 20px;
+    color: #DCD7C9;
+}
+
+.nav-link {
+    font-size: 16px;
+}
+
+.nav-link.active {
+    font-weight: 700;
+}
+
+/* Hero Section */
+#hero{
+    background: linear-gradient(60deg, var(--pr-color), #DCD7C9);
+    height: 93vh;
+    width: 100%;
+    position: relative;
+}
+
+.img-hero{
+    bottom:0;
+    position: absolute;
+}
+
+.hero-tagline h1{
+    color: #DCD7C9;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    margin-top: 90px;
+}
+
+.hero-tagline p{
+    font-size: 18px;
+    color:#fff;
+    margin-top: 16px;
+    line-height: 30px;
+    width:90%;
+}
+
+/*Berita acara*/
+
+#BeritaAcara{
+    padding: 20px 0;
+}
+
+h2{
+    font-size:32px;
+    font-weight: 700;
+    color: var(--pr-color);
+}
+
+.sub-title{
+    font-size:16px;
+    color: #A27B5C;
+}
+
+.carauselBerita img{
+    width:400px;
+    height:300px;
+}
+
+/* Section pemberitahuan */
+#pemberitahuan{
+    background-image:url(../Assets/img/Banner2.png);
+    margin-top: 10px;
+    color: white;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:500px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+
+
+#pemberitahuan h3{
+    margin-bottom:50px;
+    font-size:34px;
+}
+
+.icon{
+    width:25px;
+    height:25px;
+}
+
+#pemberitahuan a{
+    text-decoration:none;
+    color: white;
+    margin-left: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+}
+
+#galeri .bungkusGambar{
+    width:250px;
+    height:250px;
+    border-radius:20px;
+}
+
+#galeri .bungkusGambar:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#galeri .bungkusGambar img{
+    width:100%;
+    height:100%;
+}
+
+/* responsif */
